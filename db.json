@@ -11,7 +11,7 @@
     {
       "nombre": "Juan Perez",
       "empresa": "Empresa de Juan Perez",
-      "email": "juanperez@correo.com",
+      "email": "juan.perez@correo.com",
       "telefono": "123345567",
       "notas": "Ningún problema",
       "id": 2
@@ -23,14 +23,6 @@
       "telefono": "2342342343",
       "notas": "Hola",
       "id": 3
-    },
-    {
-      "nombre": "Juan Perez",
-      "empresa": "Empresa de Juan Perez",
-      "email": "juan.perez@correo.com",
-      "telefono": "123345567",
-      "notas": "Ningún problema",
-      "id": 4
     }
   ]
 }

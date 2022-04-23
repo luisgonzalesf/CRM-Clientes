@@ -30,7 +30,7 @@ const Formulario = ({ cliente, cargando }) => {
             let respuesta
             if(cliente.id) {
                 // Update
-                const url = `{import.meta.env.VITE_API_URL}/${cliente.id}`;
+                const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`;
                 respuesta = await fetch(url, {
                     method: "PUT",
                     body: JSON.stringify(valores),
