@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Luis Gonzales",
+      "empresa": "Del Cuore Detalles",
+      "email": "luisgonzalesfarronan@gmail.com",
+      "telefono": "979492599",
+      "notas": "Ninguna observación",
+      "id": 1
+    },
+    {
+      "nombre": "Juan Perez",
+      "empresa": "Empresa de Juan Perez",
+      "email": "juanperez@correo.com",
+      "telefono": "123345567",
+      "notas": "Ningún problema",
+      "id": 2
+    },
+    {
+      "nombre": "Rosa Flores",
+      "empresa": "Empresa Rosa Flores",
+      "email": "rosa.flores@correo.com",
+      "telefono": "2342342343",
+      "notas": "Hola",
+      "id": 3
+    },
+    {
+      "nombre": "Juan Perez",
+      "empresa": "Empresa de Juan Perez",
+      "email": "juan.perez@correo.com",
+      "telefono": "123345567",
+      "notas": "Ningún problema",
+      "id": 4
+    }
+  ]
+}
