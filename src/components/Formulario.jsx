@@ -27,10 +27,11 @@ const Formulario = ({ cliente, cargando }) => {
     });
     const handleSubmit = async (valores) => {
         try {
-            let respuesta
-            if(cliente.id) {
+            let respuesta;
+            if (cliente.id) {
                 // Update
                 const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`;
+                console.log(url);
                 respuesta = await fetch(url, {
                     method: "PUT",
                     body: JSON.stringify(valores),
@@ -38,9 +39,10 @@ const Formulario = ({ cliente, cargando }) => {
                         "Content-Type": "application/json",
                     },
                 });
-            }else {
+            } else {
                 // Register
-                const url = import.meta.env.VITE_API_URL
+                const url = `${import.meta.env.VITE_API_URL}`;
+                console.log(url);
                 respuesta = await fetch(url, {
                     method: "POST",
                     body: JSON.stringify(valores),
@@ -193,7 +195,7 @@ const Formulario = ({ cliente, cargando }) => {
 
 Formulario.defaultProps = {
     cliente: {},
-    cargando: false
+    cargando: false,
 };
 
 export default Formulario;
